@@ -14,36 +14,6 @@ This project provides numerical simulation and visualization of the Brusselator 
 - Python 3.6+
 - NumPy
 - Matplotlib
-- Jupyter Notebook (for interactive visualization)
-
-## Installation
-
-```bash
-git clone https://github.com/yourusername/brusselator-analysis.git
-cd brusselator-analysis
-pip install -r requirements.txt
-```
-
-## Usage
-
-Run in Jupyter Notebook:
-
-```python
-from brusselator import plot_static_graphs, create_animation
-
-# Display static graphs for key parameter values
-plot_static_graphs()
-
-# Create and display interactive animation
-animation = create_animation()
-display(animation)
-```
-
-Or execute as a script:
-
-```bash
-python brusselator.py
-```
 
 ## Key Parameters
 
@@ -61,7 +31,3 @@ Static plots show:
 Animation shows:
 - Continuous transition between different regimes
 - Current parameter values and stability status
-
-## License
-
-MIT License - free for academic and research use
